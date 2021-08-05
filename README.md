@@ -27,4 +27,20 @@
   
   <code> python3 gerador.py </code>
   
-  O processo de execução é um pouco demorado pelo fato do sistema estar criando arquivos com diferentes tamanhos. Ao final do processo o diretório dados/ terá 708.3 MB
+  O processo de execução é um pouco demorado pelo fato do sistema estar criando arquivos com diferentes tamanhos. Ao final do processo será alocado 708.3 MB no total para armazenar os dados de todos os arquivos.
+  
+#### 2.3 - Executar os testes no algoritmo
+
+ Para executar os testes no algoritmo Counting Sort é necessário ter gerado os arquivos de entrada pela seção 2.2. Estando dentro do diretório codigo/ rode o comando:
+ 
+ <code> python3 main.py </code>
+ 
+ Isso irá executar tanto o teste de tempo de execução, quanto o teste de memória utilizada pelo sistema (usando o memory_profiler). Ao final do processo será salvo um arquivo de resultado no diretório resultados/ relacionado ao resultado desejado.
+ 
+#### 2.4 - Plotagem dos gráficos
+
+ Para plotar os gráfico é necessário estar dentro do diretório codigo/ e rodar o comando:
+ 
+ <code> python3 show_data.py </code>
+ 
+ Será pego os dados referentes ao diretório resultado/ e plotado um gráfico usando eles.
