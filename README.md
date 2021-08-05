@@ -36,9 +36,9 @@
  <code> python3 main.py [argumento] </code>
  
  O [argumento] pode ser:
-     aleatorio: Executa o algoritmo sequências aleatórias dos arquivos gerados;
-     ordenado: Executa o algoritmo sobre sequências ordenadas de forma crescente dos arquivos gerados;
-     inverso: Executa o algoritmo sobre sequências ordenadas de forma decrescente dos arquivos gerados;
+     * aleatorio: Executa o algoritmo sequências aleatórias dos arquivos gerados;
+     * ordenado: Executa o algoritmo sobre sequências ordenadas de forma crescente dos arquivos gerados;
+     * inverso: Executa o algoritmo sobre sequências ordenadas de forma decrescente dos arquivos gerados;
      
  Exemplo de execução: <code> python3 main.py aleatorio </code>
  
