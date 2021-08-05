@@ -33,7 +33,14 @@
 
  Para executar os testes no algoritmo Counting Sort é necessário ter gerado os arquivos de entrada pela seção 2.2. Estando dentro do diretório codigo/ rode o comando:
  
- <code> python3 main.py </code>
+ <code> python3 main.py [argumento] </code>
+ 
+ O [argumento] pode ser:
+     aleatorio: Executa o algoritmo sequências aleatórias dos arquivos gerados;
+     ordenado: Executa o algoritmo sobre sequências ordenadas de forma crescente dos arquivos gerados;
+     inverso: Executa o algoritmo sobre sequências ordenadas de forma decrescente dos arquivos gerados;
+     
+ Exemplo de execução: <code> python3 main.py aleatorio </code>
  
  Isso irá executar tanto o teste de tempo de execução, quanto o teste de memória utilizada pelo sistema (usando o memory_profiler). Ao final do processo será salvo um arquivo de resultado no diretório resultados/ relacionado ao resultado desejado.
  
