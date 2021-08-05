@@ -44,3 +44,9 @@
  <code> python3 show_data.py </code>
  
  Será pego os dados referentes ao diretório resultado/ e plotado um gráfico usando eles.
+
+## 3 - Resultados obtidos
+
+ Tempo de execução do algoritmo em arquivos ordenados aleatoriamente.
+
+![Tempo de execução](imagens/teste_1.png)
