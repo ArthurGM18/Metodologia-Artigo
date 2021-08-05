@@ -47,6 +47,6 @@
 
 ## 3 - Resultados obtidos
 
- Tempo de execução do algoritmo em arquivos ordenados aleatoriamente.
+ Teste para tempo de execução do algoritmo Counting Sort.
 
-![Tempo de execução](imagens/teste_1.png)
+![Tempo de execução](imagens/all_1.png)
